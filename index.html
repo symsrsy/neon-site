@@ -1,0 +1,429 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>NOAN Teknoloji</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="sal.css">
+	<link rel="stylesheet" href="utils.css">
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+
+
+ <header id="navbar" class="main-header">
+		<div id="nav-links" class="navbar">
+		  <a href="index.html" class="home-link">
+			<div class="navbar-logo"></div>
+			<img class="logo" src=" " width="310" height="92" />
+		  </a>
+		  <nav class="navbar-container container">
+			<button
+			  type="button"
+			  id="navbar-toggle"
+			  aria-controls="navbar-menu"
+			  aria-label="Toggle menu"
+			  aria-expanded="false"
+			>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+  
+			<div id="navbar-menu" aria-labelledby="navbar-toggle">
+			  <ul class="navbar-links">
+				<li class="navbar-item">
+				  <a class="navbar-link" href="#first" onclick="toggleClassName();">Anasayfa</a>
+				</li>
+				<li class="navbar-item">
+				  <a class="navbar-link" href="#package" onclick="toggleClassName();">Paketler</a>
+				</li>
+				<li class="navbar-item">
+				  <a class="navbar-link" href="#services" onclick="toggleClassName();">Hizmetlerimiz</a>
+				</li>
+				<li class="navbar-item">
+				  <a class="navbar-link" href="#about" onclick="toggleClassName();">Hakkımızda</a>
+				</li>
+				<li class="navbar-item">
+				  <a class="navbar-link" href="#contact" onclick="toggleClassName();">İletişim</a>
+				</li>
+			  </ul>
+			</div>
+		  </nav>
+		</div>
+			
+
+
+		<section id="first" class="first">
+			<div class="cont">
+				<div class="card">	
+					<div class="face front">
+						<h1>Noan Teknoloji Yazılım ve Danışmanlık Hizmeti İçin Bizimle İletişime Geçin</h1>	
+					</div>
+					<div class="face back">
+						<h4>Samsun\Canik</h4>
+					</div>
+				   </div>	
+			</div>
+			<div id="cursor"></div>
+		</section> 
+		
+
+
+
+
+
+			<!-- <div class="banner" id="home">	
+				<div class="cont" data-sal="slide-left" data-sal-duration="500">
+					<h2>Sucess By Design</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi.</p>
+				</div>
+			</div> 
+	 -->
+		  </header>
+		 
+	  </header>
+	 
+
+
+
+<!--  About -->
+<section class="sec stats"id="about">
+    <div class="cont" data-sal="slide-right" data-sal-duration="500">
+      <div class="mxw800p">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco.</p>
+      </div>
+    </div>
+	<div class="imgBx" data-sal="slide-left" data-sal-duration="500"></div>
+  </section>
+
+
+<!--  service -->
+<section class="services" id="services">
+	<h2 class="heading" data-sal="slide-right" data-sal-duration="500">Our Services</h2>
+	<p class="text" data-sal="slide-left" data-sal-duration="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur.</p>
+	<div class="cont">
+		<div class="serviceBx" data-sal="slide-right" data-sal-duration="500">
+			
+			<div>
+				<img src="img/icon-1.png">
+				<h2>Design</h2>
+			</div>
+		</div>
+		<div class="serviceBx" data-sal="slide-up" data-sal-duration="500">
+			<div>
+				<img src="img/icon-2.png">
+				<h2>Development</h2>
+			</div>
+		</div>
+		<div class="serviceBx" data-sal="slide-left" data-sal-duration="500">
+			<div>
+				<img src="img/icon-3.png">
+				<h2>Branding</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--  technologies -->
+<section class="technolgy" id="technolgy">
+	<div class="contentBx" data-sal="slide-right" data-sal-duration="500">
+		<h2 class="heading">We use cutting edge technology</h2>
+		<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="imgBx" data-sal="slide-left" data-sal-duration="500">
+		<img src="img/tech.png">
+	</div>
+</section>
+
+<!--  price -->
+<div class="boxpart" id="package">
+	<div class="serviceBx" data-sal="slide-right" data-sal-duration="500">
+	<div class="box">
+		<span class="glass"></span>
+		<div class="content">
+			<h2>Price 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>
+	</div>
+    </div>
+	<div class="serviceBx" data-sal="slide-up" data-sal-duration="500">
+	<div class="box">
+		<span class="glass"></span>
+		<div class="content">
+			<h2>Price 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>
+	</div>
+</div>
+	<div class="serviceBx" data-sal="slide-right" data-sal-duration="500">
+	<div class="box">
+		<span class="glass"></span>
+		<div class="content">
+			<h2>Price 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
+	<section class="work" id="portfolio">
+		<div class="content" >
+		  <div class="mxw800p" data-sal="slide-right" data-sal-duration="500">
+			<h3>Recent Work</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco.</p>
+		  </div>
+
+		  <div class="c">
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img1.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img2.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img3.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img4.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img3.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img4.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img3.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+			<div class="bx">
+				<div class="imgBox">
+					<img src="img/img4.jpg">
+				</div>
+				<div class="contentbox">
+					<div>
+						<h2>Image Title</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		  <!-- <div class="workBx">
+			<div class="brand">
+			<div class="cart-2">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div>
+			</div>
+			<div class="brand">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div>
+			<div class="brand">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div>
+			<div class="brand">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div>
+			<div class="brand">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div>
+			<div class="brand">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div>
+			<div class="brand">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div>
+			<div class="brand">
+			  <a href="#"><h2>Brand Name</h2></a>
+			</div> -->
+		  </div>
+		</div>
+	  </section>
+
+
+
+<!--  message -->
+	<section class="sec contact" id="contact">
+		<div class="content">
+		  <div class="mxw800p">
+			<h3>Send Us A Message</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		  </div>
+		  <div class="conactForm">
+			<form>
+			  <div class="row100">
+				<div class="inputBx50">
+				  <input type="text" name="" placeholder="Full Name">
+				</div>
+				<div class="inputBx50">
+				  <input type="text" name="" placeholder="Email Address">
+				</div>
+			  </div>
+			  <div class="row100">
+				<div class="inputBx100">
+				  <textarea placeholder="Message"></textarea>
+				</div>
+			  </div>
+			  <div class="row100">
+				<div class="inputBx100">
+				  <input type="submit" value="Send" name="">
+				</div>
+			  </div>
+			</form>
+		  </div>
+		  <div class="sci">
+			<ul>
+			  <li><a href="#"><img src="img/facebook.png"></a></li>
+			  <li><a href="#"><img src="img/twitter.png"></a></li>
+			  <li><a href="#"><img src="img/linkedin.png"></a></li>
+			</ul>
+		  </div>
+		  <p class="copyright">Design & Developed By <a href="#"></a></p>
+		</div>
+	  </section>
+
+
+
+
+
+
+	
+	<script type="text/javascript">
+		var cursor = document.getElementById('cursor');
+		window.onmousemove = function(e){
+			cursor.style.left = e.clientX + 'px';
+			cursor.style.top = e.clientY + 'px';
+		}
+	</script>
+	<script type="text/javascript" src="sal.js"></script>
+	<script type="text/javascript">
+
+		sal({
+		  once: false,
+		});
+
+		function toggleClassName(){
+			var sidebar = document.querySelector('.sidebar');
+			var wrapper = document.querySelector('.wrapper');
+			var toggle = document.querySelector('.toggle');
+			sidebar.classList.toggle('active')
+			wrapper.classList.toggle('active')
+			toggle.classList.toggle('active')
+		}
+
+		window.addEventListener('scroll', function(){
+			var header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY > 0 )
+		})
+	</script>
+</body>
+<script src="index.js"></script>
+</html>
+
+

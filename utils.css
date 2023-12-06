@@ -1,0 +1,167 @@
+
+:root {
+  --white: #fff;
+  --primary: #519259;
+  --secondary: #6c757d;
+  --green: #89ff00;
+  --danger: #dc3545;
+  --blue: #2196F3;
+  --dark: #000;
+  --light: #f8f9fa;
+  --orange: #f0bb62;
+  --darkgreen: #064635;
+  --ligtgreen: #b1d8b7;
+  --lakesidewhite: #edf0ee;
+  --forestgreen: #1b463b;
+  --darkblue: #003060;
+  --navbar-bg-color: hsl(0, 0%, 15%);
+  --navbar-text-color: hsl(0, 0%, 85%);
+  --navbar-text-color-focus: white;
+  --navbar-bg-contrast: hsl(0, 0%, 25%);
+}
+
+/* text color */
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-success {
+  color: var(--success);
+}
+.text-danger {
+  color: var(--danger);
+}
+.text-warning {
+  color: var(--warning);
+}
+.text-info {
+  color: var(--info);
+}
+.text-dark {
+  color: var(--dark);
+}
+.text-light {
+  color: var(--light);
+}
+.rights {
+  color: var(--light);
+  font-size: 1.2rem;
+}
+
+/* bg-colors */
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-third {
+  background-color: var(--primary);
+}
+.bg-fourth {
+  background-color: var(--secondary);
+}
+.bg-success {
+  background-color: var(--success);
+}
+.bg-danger {
+  background-color: var(--danger);
+}
+.bg-warning {
+  background-color: var(--warning);
+}
+.bg-info {
+  background-color: var(--info);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-light {
+  background-color: var(--light);
+  color: var(--navbar-bg-color);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+.bg-lightgreen {
+  background-color: var(--ligtgreen);
+  color: var(--dark);
+}
+.bg-darkgrey {
+  background-color: var(--navbar-bg-color);
+}
+.bg-darkblue {
+  background-color: var(--darkblue);
+}
+
+/* buttons */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.btn-secondary {
+  color: var(--white);
+  background-color: var(--secondary);
+}
+.btn-third {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.btn-fourth {
+  color: var(--white);
+  background-color: var(--secondary);
+}
+.btn-success {
+  color: var(--white);
+  background-color: var(--success);
+}
+
+.btn-danger {
+  color: var(--white);
+  background-color: var(--danger);
+}
+
+.btn-warning {
+  color: var(--white);
+  background-color: var(--warning);
+}
+
+.btn-dark {
+  color: var(--white);
+  background-color: var(--dark);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.btn-outline-primary {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--dark);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--white);
+}
+
